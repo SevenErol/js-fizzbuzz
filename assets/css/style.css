@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #183A4A;
+    --number-color: #3D88AE;
+    --fizz-color: #61D2A4;
+    --buzz-color: #F9D277;
+    --fizzbuzz-color: #DE5471;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 60px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100% / 7);
+    aspect-ratio: 1 / 1;
+}
+
+.square {
+    margin: 1rem;
+    background-color: aquamarine;
+    aspect-ratio: 1 / 1;
+}
