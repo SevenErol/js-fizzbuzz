@@ -37,6 +37,27 @@ h1 {
 
 .square {
     margin: 1rem;
-    background-color: aquamarine;
     aspect-ratio: 1 / 1;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    background-color: var(--number-color);
+}
+
+.fizz {
+    background-color: var(--fizz-color);
+}
+
+.buzz {
+    background-color: var(--buzz-color);
+}
+
+.fizz_buzz {
+    background-color: var(--fizzbuzz-color);
 }
